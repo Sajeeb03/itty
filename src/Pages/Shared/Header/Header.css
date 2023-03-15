@@ -1,6 +1,7 @@
-.navbar {
-    padding: 20px;
-}
+/* .navbar {
+    background-color: rgba(237, 225, 208, 1);
+    height: 50vh;
+} */
 
 .logo {
     display: flex;
@@ -16,16 +17,15 @@
 
 .logo p {
     text-transform: uppercase;
-    width: 70px;
-    height: 22px;
+    font-size: 20px;
     font-weight: 700;
     color: #153438;
 }
 
 .nav_option {
-    width: 116px;
-    height: 22px;
     font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
     color: #153438;
 }
 

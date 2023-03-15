@@ -1,0 +1,108 @@
+.home_section {
+    padding: 0 45px;
+}
+
+.card_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.card {
+    background-color: #153438 !important;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    border: none;
+    border-radius: 0px !important;
+    /* height: 300px !important; */
+}
+
+.fifth_card {
+    background-color: #EEC599 !important;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.fifth_card p {
+    color: #153438;
+}
+
+.card_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: rgba(237, 225, 208, 1);
+    text-transform: uppercase;
+}
+
+.card_des {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 17px;
+    color: rgba(237, 225, 208, 1);
+}
+
+.card_section img {
+    width: 100%;
+}
+
+
+
+
+/* plan section css */
+
+.plan_section {
+    background-color: rgba(238, 197, 153, 1);
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 395px;
+}
+
+.plan_section p {
+    color: #153438;
+}
+
+
+
+/* holder section */
+.holder_section {
+    background: #153438;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 395px;
+}
+
+
+
+
+
+/* funds_section */
+
+.funds_section {
+    background-color: rgba(238, 197, 153, 1);
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    text-align: center;
+    height: 395px;
+    width: 100%;
+}
+
+.funds_title {
+    color: #153438;
+}
+
+.circle {
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+    border-radius: 50%;
+    background: #153438;
+    display: grid;
+    place-content: center;
+}

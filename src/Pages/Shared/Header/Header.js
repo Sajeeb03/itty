@@ -8,7 +8,7 @@ import { FaTwitter, FaDiscord } from "react-icons/fa"
 const Header = () => {
     return (
         <div className="navbar">
-            <Row className="align-items-center w-100">
+            <Row className="w-100">
                 <Col>
                     <div className="logo">
                         <img src={logo} alt="" className="images" />
@@ -18,7 +18,7 @@ const Header = () => {
                     </div>
                 </Col>
                 <Col>
-                    <div className="nav_options d-flex align-items-center">
+                    <div className="nav_options d-flex align-items-center justify-content-end gap-2">
                         <div className="d-flex align-items-center gap-2">
                             <img src={logo} alt="" className="images" />
                             <Link to="/" className="text-decoration-none"><p className="m-0 nav_option">
@@ -58,7 +58,6 @@ const Header = () => {
                             <FaTwitter className="social_icons" />
                             <FaDiscord className="social_icons" />
                         </div>
-
                     </div>
                 </Col>
             </Row>
