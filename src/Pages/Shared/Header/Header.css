@@ -1,0 +1,36 @@
+.navbar {
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.images {
+    height: 30px;
+    width: 30px;
+}
+
+.logo p {
+    text-transform: uppercase;
+    width: 70px;
+    height: 22px;
+    font-weight: 700;
+    color: #153438;
+}
+
+.nav_option {
+    width: 116px;
+    height: 22px;
+    font-weight: 400;
+    color: #153438;
+}
+
+.social_icons {
+    height: 50px;
+    width: 40px;
+    color: #153438;
+}
