@@ -17,7 +17,7 @@ const Header = () => {
                         </p>
                     </div>
                 </Col>
-                <Col>
+                <Col md="8">
                     <div className="nav_options d-flex align-items-center justify-content-end gap-2">
                         <div className="d-flex align-items-center gap-2">
                             <img src={logo} alt="" className="images" />
@@ -28,16 +28,20 @@ const Header = () => {
 
                         <div className="d-flex align-items-center gap-2">
                             <img src={logo} alt="" className="images" />
-                            <Link to="/" className="text-decoration-none"><p className="m-0 nav_option">
+                            <Link to="/team" className="text-decoration-none"><p className="m-0 nav_option">
                                 TEAM
                             </p> </Link>
                         </div>
 
                         <div className="d-flex align-items-center gap-2">
                             <img src={logo} alt="" className="images" />
-                            <Link to="/" className="text-decoration-none"><p className="m-0 nav_option">
-                                THE NFTS
-                            </p></Link>
+                            <Link
+                                to="/"
+                                className="text-decoration-none"
+                            >
+                                <p className="m-0 nav_option">
+                                    THE NFTS
+                                </p></Link>
                         </div>
 
                         <div className="d-flex align-items-center gap-2">

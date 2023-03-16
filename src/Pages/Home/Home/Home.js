@@ -171,16 +171,16 @@ const Home = () => {
                         <p className="card_des m-0">artist & founder</p>
                     </div>
                     <div className="circle">
-                        <p className="card_title m-0">20%</p>
-                        <p className="card_des m-0">artist & founder</p>
+                        <p className="card_title m-0">30%</p>
+                        <p className="card_des m-0">core team</p>
+                    </div>
+                    <div className="circle">
+                        <p className="card_title m-0">25%</p>
+                        <p className="card_des m-0">treasury (art)</p>
                     </div>
                     <div className="circle">
                         <p className="card_title m-0">20%</p>
-                        <p className="card_des m-0">artist & founder</p>
-                    </div>
-                    <div className="circle">
-                        <p className="card_title m-0">20%</p>
-                        <p className="card_des m-0">artist & founder</p>
+                        <p className="card_des m-0">treasury (utility)</p>
                     </div>
                 </div>
             </div>

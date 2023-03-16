@@ -1,0 +1,84 @@
+.team_section {
+    padding: 0 10%;
+}
+
+.team_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #153438;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.team_card {
+    background-color: #153438;
+    color: #EEE2D1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.profile_img {
+    height: 225px;
+    border-radius: 5px;
+}
+
+.user_name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.list {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.list p {
+    margin: 0;
+}
+
+.profile_des {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+
+/* thread section */
+
+.thread_section {
+    padding: 0 10%;
+}
+
+.thread_card {
+    height: 381px;
+    background: #153438;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0;
+}
+
+.thread_img {
+    height: 294px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.thread_card_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #EEE2D1;
+    text-transform: uppercase;
+    height: 54px;
+    display: grid;
+    place-content: center;
+    margin-top: 10px;
+}
