@@ -1,7 +1,6 @@
-/* .navbar {
-    background-color: rgba(237, 225, 208, 1);
-    height: 50vh;
-} */
+.navbar {
+    padding: 0 45px;
+}
 
 .logo {
     display: flex;

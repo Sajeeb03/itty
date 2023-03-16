@@ -36,7 +36,7 @@ const Header = () => {
                         <div className="d-flex align-items-center gap-2">
                             <img src={logo} alt="" className="images" />
                             <Link
-                                to="/"
+                                to="/thenft"
                                 className="text-decoration-none"
                             >
                                 <p className="m-0 nav_option">

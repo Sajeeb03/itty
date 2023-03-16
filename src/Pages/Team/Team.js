@@ -275,14 +275,14 @@ const Team = () => {
             </div>
 
 
-            <div className="thread_section my-4">
+            <div className="thread_section mt-4">
                 <p className="team_title">
                     Alpha Threads
                 </p>
 
 
                 <div className="pb-4">
-                    <Row className="">
+                    <Row className="gap-2">
                         <Col xs={12} sm={4} className="thread_card">
                             <img src={img} alt="" className="thread_img" />
                             <p className="thread_card_title">
