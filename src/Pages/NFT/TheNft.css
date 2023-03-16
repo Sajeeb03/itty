@@ -91,7 +91,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width:678px) {
+@media screen and (max-width:768px) {
     .nft_card {
         height: auto;
         flex-direction: column;

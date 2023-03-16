@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import ArtTools from "../Pages/ArtTools/ArtTools";
 import Home from "../Pages/Home/Home/Home";
 import Layout from "../Pages/Layouts/Layout";
 import TheNft from "../Pages/NFT/TheNft";
@@ -20,7 +21,11 @@ export const router = createBrowserRouter([
             {
                 path: "/thenft",
                 element: <TheNft />
-            }
+            },
+            {
+                path: "/arttools",
+                element: <ArtTools />
+            },
         ]
     }
 ])

@@ -1,0 +1,84 @@
+.art_tools_section {
+    padding: 0 4.6%;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #153438;
+    height: 116px;
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+}
+
+.line {
+    width: 90px;
+    border: 1px solid #153438;
+    margin: 10px auto;
+}
+
+
+.banner {
+    height: 538px;
+    background: #EEC599;
+    border-radius: 5px;
+    padding: 50px 7.5%;
+}
+
+.heading_des {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #153438;
+    text-align: center;
+    text-transform: uppercase;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.banner_headings {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #153438;
+    text-align: center;
+}
+
+
+.banner_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin-top: 30px;
+}
+
+.banner_card {
+    height: 257.54px;
+    background: #153438;
+    border-radius: 29px;
+    display: grid;
+    place-content: center;
+    color: #EEC599;
+}
+
+.overlay {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #153438;
+    height: 538px;
+    background: rgba(234, 234, 234, 0.5);
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}

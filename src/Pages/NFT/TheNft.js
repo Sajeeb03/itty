@@ -6,7 +6,7 @@ const TheNft = () => {
     return (
         <div className='nft_section pb-4 pb-md-d-4'>
             <Row className='gap-4'>
-                <Col>
+                <Col md={6}>
                     <div className="left_card">
                         <img src={img} alt="" />
                         <div className='d-flex flex-column justify-content-center align-items-center mt-3 text-center gap-1'>
