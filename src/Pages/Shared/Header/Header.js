@@ -17,7 +17,7 @@ const Header = () => {
                         </p>
                     </div>
                 </Col>
-                <Col md="8">
+                <Col className="d-none d-sm-block">
                     <div className="nav_options d-flex align-items-center justify-content-end gap-2">
                         <div className="d-flex align-items-center gap-2">
                             <img src={logo} alt="" className="images" />

@@ -82,3 +82,17 @@
     top: 0;
     left: 0;
 }
+@media screen and (max-width:768px) {
+
+    .banner {
+        height: auto;
+    }
+
+    .banner_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .overlay {
+        height: 100%;
+    }
+}

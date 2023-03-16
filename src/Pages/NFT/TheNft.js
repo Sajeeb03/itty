@@ -4,7 +4,7 @@ import img from "../../Assets/img/bear.jpg"
 
 const TheNft = () => {
     return (
-        <div className='nft_section pb-4 pb-md-d-4'>
+        <div className='nft_section py-4 pb-md-d-4'>
             <Row className='gap-4'>
                 <Col md={6}>
                     <div className="left_card">
@@ -40,6 +40,7 @@ const TheNft = () => {
                                 </button>
                             </div>
                         </div>
+
                         <div className="nft_card  d-flex gap-4 position-relative">
                             <img src={img} alt="" />
                             <div className="">
@@ -62,8 +63,9 @@ const TheNft = () => {
                                 </button>
                             </div>
                         </div>
+
                         <div className="nft_third_card">
-                            Coming Soon...
+                            <p className='m-0'>Coming Soon...</p>
                         </div>
                     </div>
                 </Col>

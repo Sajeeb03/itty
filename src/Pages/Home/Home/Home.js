@@ -165,7 +165,7 @@ const Home = () => {
                 <p className="card_title funds_title">How will the funds be used?
                 </p>
 
-                <div className="d-flex justify-content-around">
+                <div className="percent">
                     <div className="circle">
                         <p className="card_title m-0">20%</p>
                         <p className="card_des m-0">artist & founder</p>
