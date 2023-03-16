@@ -7,7 +7,7 @@ const Team = () => {
     return (
         <div>
             <div className="team_section">
-                <p className="team_title">Core team</p>
+                <p className="team_title mt-2">Core team</p>
                 <Row className="gap-4">
                     <Col className="team_card">
                         <div className="card_top d-flex flex-column flex-sm-row text-center text-sm-start gap-4">
@@ -95,7 +95,6 @@ const Team = () => {
 
                         </div>
                     </Col>
-
                 </Row>
             </div>
             <div className="team_section mt-4">
@@ -282,28 +281,28 @@ const Team = () => {
 
 
                 <div className="pb-4">
-                    <Row className="gap-2">
-                        <Col xs={12} sm={4} className="thread_card">
+                    <div className="thread_cards">
+                        <div className="thread_card">
                             <img src={img} alt="" className="thread_img" />
                             <p className="thread_card_title">
                                 Taste of italy
                             </p>
-                        </Col>
+                        </div>
 
-                        <Col xs={12} sm={4} className="thread_card">
+                        <div className="thread_card">
                             <img src={img} alt="" className="thread_img" />
                             <p className="thread_card_title">
                                 OGRE
                             </p>
-                        </Col>
+                        </div>
 
-                        <Col xs={12} sm={4} className="thread_card">
+                        <div className="thread_card">
                             <img src={img} alt="" className="thread_img" />
                             <p className="thread_card_title">
                                 Early
                             </p>
-                        </Col>
-                    </Row>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
