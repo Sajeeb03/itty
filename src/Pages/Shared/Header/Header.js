@@ -58,7 +58,7 @@ const Header = () => {
 
                         <div className="d-flex align-items-center">
                             <img src={raid} alt="" className="images" />
-                            <Link to="/" className="text-decoration-none"><p className="m-0 nav_option">
+                            <Link to="/raidtools" className="text-decoration-none"><p className="m-0 nav_option">
                                 RAID TOOLS
                             </p></Link>
                         </div>

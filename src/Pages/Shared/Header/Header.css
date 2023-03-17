@@ -42,6 +42,7 @@
     width: 40px;
     color: #153438;
 }
+
 @media screen and (max-width:768px) {
     .logo {
         width: 25%;

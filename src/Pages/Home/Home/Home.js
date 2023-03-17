@@ -1,9 +1,8 @@
 import "./Home.css"
-import demo from "../../../Assets/img/bear.jpg"
 import { TbPointFilled } from "react-icons/tb"
 import { BsFillCircleFill, BsFillTriangleFill } from "react-icons/bs"
 
-
+//images
 import img2 from "../../../Assets/gif/IMG_0029.gif";
 import img3 from "../../../Assets/gif/IMG_0034.gif"
 import img4 from "../../../Assets/gif/IMG_0028.gif"

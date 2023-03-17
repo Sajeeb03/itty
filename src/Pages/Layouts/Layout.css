@@ -1,0 +1,45 @@
+.outlet {
+    position: relative;
+}
+
+.mobile_nav {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.mobile_nav_icons {
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.nav_icons {
+    height: 440px;
+    background: #EEC599;
+    border-radius: 5px;
+    width: 160px;
+}
+
+.btn_icon {
+    margin-right: -3px;
+}
+
+.nav_img {
+    /* width: 60px; */
+    height: 65px;
+}
+
+.social_icons_sm {
+    height: 50px;
+    width: 30px;
+    color: #153438;
+}
+
+.mobile_nav_icons p {
+    margin-left: -8px !important;
+}
