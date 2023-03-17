@@ -3,32 +3,40 @@ import demo from "../../../Assets/img/bear.jpg"
 import { TbPointFilled } from "react-icons/tb"
 import { BsFillCircleFill, BsFillTriangleFill } from "react-icons/bs"
 
+
+import img2 from "../../../Assets/gif/IMG_0029.gif";
+import img3 from "../../../Assets/gif/IMG_0034.gif"
+import img4 from "../../../Assets/gif/IMG_0028.gif"
+import img5 from "../../../Assets/gif/IMG_0035.gif"
+import img6 from "../../../Assets/gif/IMG_0030.gif"
+import img7 from "../../../Assets/gif/IMG_0027.gif"
+
 const Home = () => {
     return (
-        <div className="home_section">
+        <div className="home_section mt-1">
             <div className="card_section">
                 <div className="card p-3 p-lg-5">
                     <p className="card_title m-0">
                         What is Ittys?
                     </p>
                     <p className="card_des m-0">
-
                         A small collection of 1:1 animated nfts used to foster a tight knit community of artistis, collectors and builders
                     </p>
                 </div>
 
                 <div className="card">
-                    <img src={demo} alt="" />
+                    <img src={img2} alt="" />
                 </div>
 
                 <div className="card">
-                    <img src={demo} alt="" />
+                    <img src={img3} alt="" />
                 </div>
                 <div className="card">
-                    <img src={demo} alt="" />
+                    <img src={img4} alt="" />
 
                 </div>
-                <div className="fifth_card p-3 p-lg-5">
+                <div className="fifth_card p-3 p-lg-5 position-relative">
+
                     <p className="card_title m-0">
                         Core Ittys?
                     </p>
@@ -38,13 +46,14 @@ const Home = () => {
                         70 pixel ittys <br />
                         30 mutations
                     </p>
-                </div>
-                <div className="card">
-                    <img src={demo} alt="" />
 
                 </div>
                 <div className="card">
-                    <img src={demo} alt="" />
+                    <img src={img5} alt="" />
+
+                </div>
+                <div className="card">
+                    <img src={img6} alt="" />
 
                 </div>
                 <div className="card p-3 p-lg-5">
@@ -52,14 +61,11 @@ const Home = () => {
                         Sub Collection?
                     </p>
                     <p className="card_des m-0">
-
-
-
                         A mini collection of 50 Itty PFP pieces and a number of custom mini series will be created over time which offer basic access to the community
                     </p>
                 </div>
                 <div className="card">
-                    <img src={demo} alt="" />
+                    <img src={img7} alt="" />
 
                 </div>
             </div>

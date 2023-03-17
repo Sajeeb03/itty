@@ -1,7 +1,17 @@
 import { Col, Row } from "react-bootstrap"
 import "./Team.css"
-import img from "../../Assets/img/bear.jpg"
 import { TbPointFilled } from "react-icons/tb"
+
+//images
+import img1 from "../../Assets/team/1.png"
+import img2 from "../../Assets/team/2.png"
+import img3 from "../../Assets/team/3.png"
+import img4 from "../../Assets/team/4.png"
+import img5 from "../../Assets/team/5.png"
+import img6 from "../../Assets/team/6.png"
+import img7 from "../../Assets/team/7.png"
+import img8 from "../../Assets/team/8.png"
+import img9 from "../../Assets/team/9.png"
 
 const Team = () => {
     return (
@@ -11,7 +21,7 @@ const Team = () => {
                 <Row className="gap-4">
                     <Col className="team_card">
                         <div className="card_top d-flex flex-column flex-sm-row text-center text-sm-start gap-4">
-                            <img src={img} alt="" className="profile_img" />
+                            <img src={img1} alt="" className="profile_img" />
                             <div className="profile">
                                 <p className="user_name m-0">
                                     Early
@@ -56,7 +66,7 @@ const Team = () => {
                     </Col>
                     <Col className="team_card">
                         <div className="card_top d-flex flex-column flex-sm-row text-center text-sm-start gap-4">
-                            <img src={img} alt="" className="profile_img" />
+                            <img src={img2} alt="" className="profile_img" />
                             <div className="profile">
                                 <p className="user_name m-0">
                                     stix
@@ -102,7 +112,7 @@ const Team = () => {
                 <Row className="gap-4">
                     <Col className="team_card">
                         <div className="card_top d-flex flex-column flex-sm-row text-center text-sm-start gap-4">
-                            <img src={img} alt="" className="profile_img" />
+                            <img src={img3} alt="" className="profile_img" />
                             <div className="profile">
                                 <p className="user_name m-0">
                                     Magnum
@@ -142,7 +152,7 @@ const Team = () => {
                     </Col>
                     <Col className="team_card">
                         <div className="card_top d-flex flex-column flex-sm-row text-center text-sm-start gap-4">
-                            <img src={img} alt="" className="profile_img" />
+                            <img src={img4} alt="" className="profile_img" />
                             <div className="profile">
                                 <p className="user_name m-0">
                                     Albertor
@@ -190,7 +200,7 @@ const Team = () => {
                 <Row className="gap-4">
                     <Col className="team_card">
                         <div className="card_top d-flex flex-column flex-sm-row text-center text-sm-start gap-4">
-                            <img src={img} alt="" className="profile_img" />
+                            <img src={img5} alt="" className="profile_img" />
                             <div className="profile">
                                 <p className="user_name m-0">
                                     *Mike*
@@ -231,7 +241,7 @@ const Team = () => {
                     </Col>
                     <Col className="team_card">
                         <div className="card_top d-flex flex-column flex-sm-row text-center text-sm-start gap-4">
-                            <img src={img} alt="" className="profile_img" />
+                            <img src={img6} alt="" className="profile_img" />
                             <div className="profile">
                                 <p className="user_name m-0">
                                     BlockchainPan
@@ -283,21 +293,21 @@ const Team = () => {
                 <div className="pb-4">
                     <div className="thread_cards">
                         <div className="thread_card">
-                            <img src={img} alt="" className="thread_img" />
+                            <img src={img7} alt="" className="thread_img" />
                             <p className="thread_card_title">
                                 Taste of italy
                             </p>
                         </div>
 
                         <div className="thread_card">
-                            <img src={img} alt="" className="thread_img" />
+                            <img src={img8} alt="" className="thread_img" />
                             <p className="thread_card_title">
                                 OGRE
                             </p>
                         </div>
 
                         <div className="thread_card">
-                            <img src={img} alt="" className="thread_img" />
+                            <img src={img9} alt="" className="thread_img" />
                             <p className="thread_card_title">
                                 Early
                             </p>

@@ -1,6 +1,9 @@
 import { Col, Row } from 'react-bootstrap'
 import './TheNft.css'
-import img from "../../Assets/img/bear.jpg"
+
+import img1 from "../../Assets/gif/IMG_0033.gif"
+import img2 from "../../Assets/gif/IMG_0031.gif"
+import img3 from "../../Assets/gif/IMG_0036.gif"
 
 const TheNft = () => {
     return (
@@ -8,7 +11,7 @@ const TheNft = () => {
             <Row className='gap-4'>
                 <Col md={6}>
                     <div className="left_card">
-                        <img src={img} alt="" />
+                        <img src={img1} alt="" />
                         <div className='d-flex flex-column justify-content-center align-items-center mt-3 text-center gap-1'>
                             <p className="nft_card_title text-uppercase m-0">Itty Bittys x 100</p>
                             <p className="nft_card_des text-uppercase m-0">
@@ -21,7 +24,7 @@ const TheNft = () => {
                 <Col>
                     <div className="right_card">
                         <div className="nft_card d-flex gap-4 position-relative">
-                            <img src={img} alt="" />
+                            <img src={img2} alt="" />
                             <div className="">
                                 <p className="nft_card_title text-uppercase m-0">Itty PFPs x 50</p>
 
@@ -42,7 +45,7 @@ const TheNft = () => {
                         </div>
 
                         <div className="nft_card  d-flex gap-4 position-relative">
-                            <img src={img} alt="" />
+                            <img src={img3} alt="" />
                             <div className="">
                                 <p className="nft_card_title text-uppercase m-0">
                                     Custom Ghosties x 40
@@ -65,7 +68,7 @@ const TheNft = () => {
                         </div>
 
                         <div className="nft_third_card">
-                            <p className='m-0'>Coming Soon...</p>
+                            <p className='my-5 my-md-0'>Coming Soon...</p>
                         </div>
                     </div>
                 </Col>
