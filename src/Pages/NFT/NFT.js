@@ -14,7 +14,14 @@ const NFT = () => {
                         <p className="nft_card_des text-uppercase">
                             100 1:1 Ittys and Itty Mutations granting full access to the community and all perks
                         </p>
-                        <button className='collection_btn'>Explore collection</button>
+                        
+                           <button className='collection_btn'>
+                           <a href="https://www.google.com/" className="text-decoration-none anchor">
+                            Explore collection
+                           </a> 
+                            </button> 
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -34,10 +41,12 @@ const NFT = () => {
                             <p className="nft_card_des text-uppercase m-0 break">
                                 grant basic Community access and perks
                             </p>
+                            <a href="https://www.google.com/">
+                                <button className='explore_btn'>
+                                    Explore
+                                </button>
+                            </a>
 
-                            <button className='explore_btn'>
-                                Explore
-                            </button>
                         </div>
                     </div>
 
@@ -58,9 +67,12 @@ const NFT = () => {
                                 grant basic Community access and perks
                             </p>
 
-                            <button className='explore_btn'>
-                                Explore
-                            </button>
+                            <a href="https://www.google.com/">
+
+                                <button className='explore_btn'>
+                                    Explore
+                                </button>
+                            </a>
                         </div>
                     </div>
 

@@ -104,7 +104,9 @@
     height: 100%;
 }
 
-
+.anchor{
+    color: #153438;
+}
 
 
 @media screen and (width<=576px) {

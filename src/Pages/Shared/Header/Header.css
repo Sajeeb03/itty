@@ -1,9 +1,13 @@
 .navbar {
     background-color: #EEC599;
-        padding: 0 3.6% !important;
-        display: flex;
-        justify-content: center;
-        height: 80px;
+    padding: 0 3.6% !important;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
