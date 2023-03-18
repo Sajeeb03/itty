@@ -81,7 +81,7 @@ const ArtTools = () => {
                                 <img src={user} alt="" />
                             </div>
                         </div>
-                        <p className="banner_headings mt-2">Generate & Export Banner
+                        <p className="banner_headings mt-2 w-75 m-auto">Generate & Export Banner
 
                         </p>
                     </div>

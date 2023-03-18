@@ -1,0 +1,122 @@
+.end_white_card {
+    height: 130px;
+    width: 35%;
+    background: #EEE2D1;
+    border: 1px solid #EEE2D1;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.white_card_small {
+    height: 70px;
+    width: 57px;
+    background: #EEE2D1;
+    border: 1px solid #EEE2D1;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small_users {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.small_user {
+    width: 70px;
+    height: 70px;
+    background: #EDE1D0;
+    border-radius: 14px;
+    display: grid;
+    place-content: center;
+}
+
+
+.line_one_small {
+    width: 50%;
+    border: 1.8px solid #153438;
+    border-radius: 5px;
+}
+
+.line_two_small {
+    width: 75%;
+    border: 1.1px solid #153438;
+    border-radius: 5px;
+}
+
+.line_three_small {
+    width: 48%;
+    border: 5px solid #153438;
+    border-radius: 5px;
+}
+
+.first_card {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+
+
+.second_card {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    z-index: 1;
+}
+
+.third_card {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+
+.fourth_card {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+
+.middle_card{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    z-index: 3;
+}
+.sixth_card {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    z-index: 2;
+
+}
+
+.seventh_card {
+    position: absolute;
+    top: 140px;
+    left: 90px;
+}
+
+.eighth_card {
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    z-index: 3;
+}
+
+.ninth_card {
+    position: absolute;
+    top: 140px;
+    left: 150px;
+}
