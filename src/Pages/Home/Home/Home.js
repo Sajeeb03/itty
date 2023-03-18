@@ -16,6 +16,11 @@ const Home = () => {
     return (
         <div className="home_section mt-1 pb-4">
             <div className="card_section">
+                
+                <div className="card">
+                    <img src={img2} alt="" />
+                </div>
+
                 <div className="card p-3 p-lg-5">
                     <p className="card_title m-0">
                         What is Ittys?
@@ -25,9 +30,7 @@ const Home = () => {
                     </p>
                 </div>
 
-                <div className="card">
-                    <img src={img2} alt="" />
-                </div>
+             
 
                 <div className="card">
                     <img src={img3} alt="" />

@@ -75,8 +75,8 @@ const Header = () => {
                         </div>
                         </Link>
                         <div className="d-flex gap-2 align-items-center">
-                            <FaTwitter className="social_icons" />
-                            <FaDiscord className="social_icons" />
+                            <a href="https://www.google.com/"><FaTwitter className="social_icons" /></a>
+                            <a href="https://www.google.com/"><FaDiscord className="social_icons" />    </a>
                         </div>
                     </div>
                 </Col>

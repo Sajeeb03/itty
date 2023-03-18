@@ -14,16 +14,16 @@ import { useState } from "react"
 
 
 const Layout = () => {
-    const [showBar,setShowBar] = useState(false)
+    const [showBar, setShowBar] = useState(false)
 
     return (
         <>
             <Header />
             <Outlet className="outlet" />
 
-            <div className={`mobile_nav ${showBar?"show_bar":"hide_bar"}`}>
+            <div className={`mobile_nav ${showBar ? "show_bar" : "hide_bar"}`}>
                 <div className="nav_icon btn_icon">
-                    <img src={btn} alt="" className="" onClick={()=>setShowBar(!showBar)}/>
+                    <img src={btn} alt="" className="" onClick={() => setShowBar(!showBar)} />
                 </div>
 
 
@@ -59,19 +59,24 @@ const Layout = () => {
                         </p>
                     </NavLink>
 
-                    <div className="d-flex align-items-center justify-content-center ms-3 gap-2">
-                        <FaDiscord className="social_icons_sm" />
-                        <p className="nav_option m-0 text-uppercase">
-                            discord
-                        </p>
-                    </div>
+                    <a href="https://www.google.com/" className="text-decoration-none">
+                        <div className="d-flex align-items-center justify-content-center ms-3 gap-2">
+                            <FaDiscord className="social_icons_sm" />
+                            <p className="nav_option m-0 text-uppercase">
+                                discord
+                            </p>
+                        </div>
+                    </a>
 
-                    <div className="d-flex align-items-center justify-content-center ms-3 gap-2">
-                        <FaTwitter className="social_icons_sm" />
-                        <p className="nav_option m-0 text-uppercase">
-                            Twitter
-                        </p>
-                    </div>
+                    <a href="https://www.google.com/" className="text-decoration-none">
+                        <div className="d-flex align-items-center justify-content-center ms-3 gap-2">
+                            <FaTwitter className="social_icons_sm" />
+                            <p className="nav_option m-0 text-uppercase">
+                                Twitter
+                            </p>
+                        </div>
+                    </a>
+
 
                 </div>
             </div>

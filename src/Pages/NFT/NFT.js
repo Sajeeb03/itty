@@ -1,7 +1,7 @@
 import "./NFT.css"
 import img1 from "../../Assets/gif/IMG_0033.gif"
 import img2 from "../../Assets/gif/IMG_0031.gif"
-import img3 from "../../Assets/gif/IMG_0036.gif"
+import img3 from "../../Assets/gif/IMG_0026.gif"
 
 const NFT = () => {
     return (
