@@ -4,7 +4,7 @@
 }
 
 .left_card {
-    height: 714px;
+    height: 724px;
     background: #153438;
     border-radius: 5px;
     padding: 40px;
@@ -114,7 +114,7 @@
     }
 
     .left_card img {
-        height: 300px;
+        height: 351px;
         width: 100%;
         border-radius: 5px;
     }
@@ -129,6 +129,10 @@
         margin-bottom: 20px;
     }
 
+    .nft_card img {
+        height: 351px;
+    }
+
     .explore_btn {
         position: static;
         /* margin-top: 10px; */
@@ -138,30 +142,6 @@
     }
 
 }
-
-
-
-
-
-/* @media screen and (577px<=width<=768px) {
-    .the_nft_section {
-        flex-direction: column;
-    }
-
-    .left_card img {
-        height: 300px;
-    }
-
-    .left_card {
-        height: auto;
-        padding: 10px;
-    }
-
-    .nft_card {
-        height: auto;
-        margin-bottom: 20px;
-    }
-} */
 
 
 @media screen and (577px<=width<=991px) {

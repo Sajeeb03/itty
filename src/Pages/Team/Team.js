@@ -30,7 +30,7 @@ const Team = () => {
                                 <p className="m-0 fs-6 text-uppercase">
                                     artist & founder
                                 </p>
-
+ 
                                 <p className="text-uppercase fs-6 fw-bold mt-1 mb-0">
                                     responsibilities
                                 </p>
