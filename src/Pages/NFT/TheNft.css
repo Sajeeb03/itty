@@ -96,7 +96,7 @@
         height: auto;
         flex-direction: column;
         text-align: center;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .left_card {
@@ -114,8 +114,31 @@
     }
 
 
-        .nft_third_card {
-            padding: 200px 20px;
+    .nft_third_card {
+        padding: 200px 20px;
     }
 
+}
+
+
+@media screen and (991px<=width<=1200px) {
+
+    .left_card{
+        height: 726px;
+    }
+    .nft_card{
+        height: 232px;
+    }
+
+    .nft_third_card{
+        height: 232px;
+    }
+
+    /* .nft_card img {
+    height: 300px;
+    } */
+
+    .nft_card_des{
+        font-size: 12px;
+    }
 }

@@ -136,8 +136,20 @@
         height: 100%;
     }
 
-    .heading {
+    .heading{
         height: auto;
+    }
+
+    .heading_des {
+        height: auto;
+        width: 90%;
         margin: 10px auto;
+    }
+}
+
+
+@media screen and (768px <=width <=992px) {
+    .banner_cards{
+        grid-template-columns: repeat(2,1fr);
     }
 }

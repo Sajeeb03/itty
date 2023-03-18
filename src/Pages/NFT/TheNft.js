@@ -7,9 +7,9 @@ import img3 from "../../Assets/gif/IMG_0036.gif"
 
 const TheNft = () => {
     return (
-        <div className='nft_section py-4 pb-md-d-4'>
+        <div className='nft_section my-4'>
             <Row className='gap-4'>
-                <Col md={6}>
+                <Col>
                     <div className="left_card">
                         <img src={img1} alt="" />
                         <div className='d-flex flex-column justify-content-center align-items-center mt-3 text-center gap-1'>

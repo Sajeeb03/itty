@@ -15,14 +15,16 @@ const Header = () => {
         <div className="navbar">
             <Row className="w-100">
                 <Col>
-                    <div className="logo">
-                        <img src={logo} alt="" className="logo_image" />
-                        <p className="m-0">
-                            Itty’s
-                        </p>
-                    </div>
+              <Link to="/" className="text-decoration-none">
+                      <div className="logo">
+                          <img src={logo} alt="" className="logo_image" />
+                          <p className="m-0">
+                              Itty’s
+                          </p>
+                      </div>
+              </Link>
                 </Col>
-                <Col md={8} className="d-none d-sm-block">
+                <Col md={8} className="d-none d-md-block">
                     <div className="nav_options d-flex align-items-center justify-content-end gap-2">
                         <Link to="/" className="text-decoration-none">
                         <div className="d-flex align-items-center">

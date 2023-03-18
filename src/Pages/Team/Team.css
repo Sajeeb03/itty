@@ -88,8 +88,26 @@
     gap: 20px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:576px) {
     .thread_cards {
         grid-template-columns: repeat(1, 1fr);
+       margin-left: -10px;
+    }
+
+    .thread_img{
+        width: auto;
+    }
+    /* .thread_card{
+        margin-left: -10px;
+    } */
+}
+
+@media screen and (577px<= width <=768px) {
+    .thread_cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .thread_img{
+        width: 100%;
     }
 }

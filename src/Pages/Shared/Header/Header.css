@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
+    margin-left: -20px;
 }
 
 .images {
@@ -28,6 +29,7 @@
     font-weight: 700;
     line-height: 27px;
     color: #153438;
+    margin-left: -10px !important;
 }
 
 .nav_option {
