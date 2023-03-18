@@ -61,8 +61,6 @@
     height: 257.54px;
     background: #153438;
     border-radius: 29px;
-    display: grid;
-    place-content: center;
     color: #EEC599;
 }
 
@@ -82,6 +80,47 @@
     top: 0;
     left: 0;
 }
+
+.white_card {
+    height: 170px;
+    width: 45%;
+    background: #EEE2D1;
+    border: 1px solid #EEE2D1;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.line_one {
+    width: 50%;
+    border: 5px solid #153438;
+    border-radius: 29px;
+}
+
+.line_two {
+    width: 75%;
+    border: 2.7px solid #153438;
+    border-radius: 29px;
+}
+
+.line_three {
+    width: 45%;
+    border: 12.7px solid #153438;
+    border-radius: 29px;
+}
+
+
+.second_box_card {
+    width: 53%;
+    height: 62px;
+    background: #EEE2D1;
+    border: 1px solid #878787;
+    border-radius: 14px;
+}
+
 @media screen and (max-width:768px) {
 
     .banner {
@@ -94,5 +133,10 @@
 
     .overlay {
         height: 100%;
+    }
+
+    .heading {
+        height: auto;
+        margin: 10px auto;
     }
 }
